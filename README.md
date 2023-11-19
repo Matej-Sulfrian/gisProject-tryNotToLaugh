@@ -7,7 +7,7 @@ The basic demo is single player game restricted to 5 lives and 10 jokes. There i
 
 ## Live Demo
 
-You can try out the application [here](). Simply allow webcam access and start smiling!
+You can try out the game [here](https://matej-sulfrian.github.io/gisProject-tryNotToLaugh/game/tryNotToLaugh.html). Simply allow webcam access and start smiling!
 
 [//]: # (## Installation)
 
