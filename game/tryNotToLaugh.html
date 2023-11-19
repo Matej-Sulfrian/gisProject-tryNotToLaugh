@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Try not to laugh | GIS Project</title>
+    <link rel="stylesheet" href="jokes/jokes.css">
+    <link rel="stylesheet" href="smile/smileDetection.css">
+    <link rel="stylesheet" type="text/css" href="icofont/icofont.min.css">
+    <script src="jokes/jokes.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="settings">
+        <i class="icofont-gear" id="set-icon"></i>
+        <i class="icofont-paperclip" id="save-icon"></i>
+    </div>
+    <h1>Try not to laugh</h1>
+    <div class="life-bar">
+        <i class="icofont-refresh" id="refreshLife"></i>
+        <div class="life-wrap">
+            <i class="icofont-heart active"></i>
+            <i class="icofont-heart active"></i>
+            <i class="icofont-heart active"></i>
+            <i class="icofont-heart active"></i>
+            <i class="icofont-heart active"></i>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div id="multimedia" class="multimedia">
+        <div id="multi" class="multi"></div>
+        <video id="video" autoplay muted class="video"></video>
+        <div id="canvas" class="canvas"></div>
+    </div>
+    <div class="box-btn">
+        <button id="start-button" class="btn-header">Start</button>
+    </div>
+</div>
+
+<div class="card-wrap">
+    <div class="card">
+        <h2>Joke: <span id="joke-count">1</span> / 10</h2>
+        <h1 id="joke"></h1>
+    </div>
+</div>
+
+<div class="next-wrap">
+    <div class="next">
+        <p>next</p>
+        <i class="icofont-random"></i>
+    </div>
+</div>
+
+
+<script src="../smileDetection/face-api.min.js"></script>
+<script src="smile/smileDetection.js"></script>
+<script>
+	window.addEventListener('load', (event) => {
+		startSmileDetection();
+	});
+
+</script>
+
+</body>
+</html>
