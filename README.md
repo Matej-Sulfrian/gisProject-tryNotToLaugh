@@ -20,37 +20,36 @@ You can try out the game [here](https://matej-sulfrian.github.io/gisProject-tryN
 5. Click next when finished.
 6. If you smile, you will lose a life.
 
-### Todos
+## Todos
 
-#### Bugs
-1. There is now clear start point for the game. Creat one single button to start the game:
+### Bugs
+#### 1. There is now clear start point for the game. Creat one single button to start the game:
    - Start smile detection
    - Show first joke
-   
-2. There is no way to win or lose a game:
+#### 2. There is no way to win or lose a game:
    - Feedback when all lives or gone; **lose**
    - Feedback when all jokes are done and there are still some lives left; **win**
    - Stop smile detection
    
-3. There is no way to restart the game:
+#### 3. There is no way to restart the game:
    - **when finished**: Restart button in win or lose feedback message (this is optional - feedback message can be simply closed without restarting the game as well)
    - **while playing**: Restart button in the hud (already exists but doesn't work correctly, see point three)
    - **on restart**: restart smile detection
 
-#### Extensions
-1. Give it a new look
+### Extensions
+#### 1. Give it a new look
    - New background idea
    - New layout
    - Different colors, fonts, icons etc.
    - New or different CSS animations
 
-2. Add game settings
+#### 2. Add game settings
    - Amount of available lives
    - Amount of jokes ([JokeAPI](https://sv443.net/jokeapi/v2/))
    - Joke categories ([JokeAPI](https://sv443.net/jokeapi/v2/))
    - More settings you like or finde on [JokeAPI](https://sv443.net/jokeapi/v2/)
 
-3. Make it a multiplayer
+#### 3. Make it a multiplayer
    - Add a setting to switch between multi- and single player
    - Check out the [demo version](https://seeknndestroy.github.io/smile-detection/) from smile-detection (it's capable of tracking 2 people)
    - Start up the demo version locally by opening `smileDetection/index.html` from your project root
